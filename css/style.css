@@ -1,4 +1,4 @@
-/* REGOLE DI DEBUG */
+/*** REGOLE DI DEBUG ***/
 
 [class*="col-"] {
   height: 100%;
@@ -9,7 +9,7 @@
   background-color: lightgreen;
 } */
 
-/* REGOLE GENERALI */
+/*** REGOLE GENERALI ***/
 
 * {
   margin: 0;
@@ -21,7 +21,9 @@ body  {
   font-family: 'Roboto', sans-serif;
 }
 
-/* HEADER */
+/*** HEADER ***/
+
+/* ** Navbar ** */
 
 nav .nav-style {
   background-color: blue;
@@ -43,6 +45,8 @@ nav .logo {
   border-radius: 5px;
 }
 
+/* ** Jumbotron ** */
+
 #jumbotron {
   margin-top: 35px;
   background-image: url(../img/jumbo.svg);
@@ -55,6 +59,41 @@ nav .logo {
   color: white;
   margin-top: 85px;
 }
+
+  /* Box sign del Jumbotron */
+
+  .deploy {
+  background-color: white;
+  border-radius: 5px;
+  margin: 30px 0;
+}
+
+.deploy h2 {
+  font-weight: 600;
+  color: black;
+}
+
+.deploy h3 {
+  font-weight: 600;
+  color: rgb(24, 78, 186);
+}
+
+.box-sign-in .account,
+.box-sign-in .google {
+  font-weight: 600;
+  margin: 10px auto;
+  padding: 5px 0;
+  width: 80%;
+}
+
+.box-sign-in .account{
+  background-color: rgb(70, 142, 242);
+  border-radius: 5px;
+}
+.box-sign-in .account a{
+  color: white;
+}
+
 
 /* MAIN */
 
