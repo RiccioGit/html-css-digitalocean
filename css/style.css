@@ -31,8 +31,10 @@ nav {
   height: 35px;
 }
 
-.logo {
+nav .logo {
   width: 15rem;
+  vertical-align: middle;
+  padding-left: 10px;
 }
 
 .button-sign {
@@ -51,6 +53,7 @@ nav {
 
 #jumbotron h1 {
   color: white;
+  margin-top: 85px;
 }
 
 /* MAIN */
