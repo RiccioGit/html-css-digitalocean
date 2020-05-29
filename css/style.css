@@ -31,6 +31,10 @@ nav {
   height: 35px;
 }
 
+.logo {
+  width: 15rem;
+}
+
 #jumbotron {
   margin-top: 65px;
 }
