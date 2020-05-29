@@ -36,7 +36,11 @@ nav {
 }
 
 #jumbotron {
-  margin-top: 65px;
+  margin-top: 35px;
+  background-image: url(../img/jumbo.svg);
+  /* background-size: cover;
+  background-position: center; */
+  height: 550px;
 }
 
 /* MAIN */
