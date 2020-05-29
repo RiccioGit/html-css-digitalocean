@@ -31,14 +31,17 @@ nav .nav-style {
 }
 
 nav {
-  height: 35px;
+  height: 55px;
 }
 
 nav .logo {
-  width: 15rem;
-  vertical-align: middle;
+  width: 120px;
   padding-left: 10px;
 }
+
+/* .navbar-left:nth-of-type(odd)::after {
+  content: >; ?????????????????????????????????????????????
+} */
 
 .button-sign {
   color: blue;
@@ -49,7 +52,7 @@ nav .logo {
 /* ** Jumbotron ** */
 
 #jumbotron {
-  margin-top: 35px;
+  margin-top: 55px;
   background-image: url(../img/jumbo.svg);
   background-size: cover;
   background-position: center;
@@ -96,21 +99,37 @@ nav .logo {
 .box-sign-in .account{
   background-color: rgb(70, 142, 242);
   border-radius: 5px;
+  box-shadow: 2px 2px rgba(166, 166, 166,0.5);
 }
-.box-sign-in .account a{
+.box-sign-in .account a {
   color: white;
 }
 
+.box-sign-in .google {
+  position: relative;
+  border-radius: 5px;
+  box-shadow: 2px 2px rgba(166, 166, 166,0.5);
+}
+
+.google i{
+  position: absolute;
+  left: 7px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: blue;
+}
+
+.box-sign-in .google a {
+  color: black;
+}
 
 /* MAIN */
 
 #customers {
   padding: 30px;
-  background-color: rgb(184, 184, 148);
 }
 
 #customers img {
-  display: inline-block;
   width: 15rem;
   background-color: none;
   padding: 20px 0;
