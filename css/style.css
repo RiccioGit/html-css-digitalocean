@@ -1,8 +1,8 @@
 /*** REGOLE DI DEBUG ***/
 
 [class*="col-"] {
-  height: 100%;
-  border: solid 1px #000;
+  /* height: 100%;
+  border: solid 1px #000; */
 }
 
 /* .row {
@@ -19,6 +19,7 @@
 
 body  {
   font-family: 'Roboto', sans-serif;
+  text-align: center;
 }
 
 /*** HEADER ***/
@@ -53,11 +54,17 @@ nav .logo {
   background-size: cover;
   background-position: center;
   height: 550px;
+  text-align: left;
+}
+
+#jumbotron .row {
+  vertical-align: center;
 }
 
 #jumbotron h1 {
   color: white;
   margin-top: 85px;
+  font-size: 63px;
 }
 
   /* Box sign del Jumbotron */
@@ -96,6 +103,19 @@ nav .logo {
 
 
 /* MAIN */
+
+#customers {
+  padding: 30px;
+  background-color: rgb(184, 184, 148);
+}
+
+#customers img {
+  display: inline-block;
+  width: 15rem;
+  background-color: none;
+  padding: 20px 0;
+}
+
 
 
 /* FOOTER */
