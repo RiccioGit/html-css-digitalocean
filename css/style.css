@@ -22,6 +22,12 @@ body  {
   text-align: center;
 }
 
+[class*="col-"] h3 {
+   font-weight: 800;
+   font-style: bold;
+}
+
+
 /*** HEADER ***/
 
 /* ** Navbar ** */
@@ -90,6 +96,13 @@ nav .logo {
 .deploy h3 {
   font-weight: 600;
   color: rgb(24, 78, 186);
+}
+
+input {
+  font-weight: 600;
+  margin: 10px auto;
+  padding: 5px 0;
+  width: 80%;
 }
 
 .box-sign-in .account,
@@ -168,5 +181,36 @@ nav .logo {
 .fa-circle {
   color: blue;
   font-weight: 800;
+}
+
+
+section .container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#started .row {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#started {
+  background: blue;
+  margin-top: 100px;
+}
+
+
+#started h3 {
+  color: white;
+}
+
+#started h4 {
+  color: rgb(70, 142, 242);
+  background-color: white;
+  padding: 5px;
+  border-radius: 15px;
+  width: 150px;
+  text-align: center;
+  display: inline-block;
 }
 /* FOOTER */
